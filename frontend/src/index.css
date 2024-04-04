@@ -1,0 +1,25 @@
+.icon-container{
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.icon-container:hover{
+    background-color: #6e6e6e;
+}
+.gray-light-color{
+    color: #6e6e6e;
+}
+.gray-dark-color{
+    color: #1e1e1e;
+}
+.gray-light-bg{
+    background-color: #6e6e6e;
+}
+.gray-dark-bg{
+    background-color: #1e1e1e;
+}
+
+
