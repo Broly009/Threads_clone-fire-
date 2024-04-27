@@ -38,4 +38,4 @@ if (process.env.NODE_ENV === "production") {
 }
 
 
-app.listen(5000,()=>console.log(`server started at ${PORT}`))
+app.listen(PORT,()=>console.log(`server started at ${PORT}`))

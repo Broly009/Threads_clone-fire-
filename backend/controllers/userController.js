@@ -122,9 +122,7 @@ const updateUser = async (req, res) => {
     if (!user) res.status(400).json({ error: "user not found" });
 
     if (req.params.id !== userId.toString())
-      return res
-
-        .status(400)
+      return res.status(400)
         .json({ error: "you cannot update other users profile" });
 
     if (password) {
